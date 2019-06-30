@@ -1,0 +1,1 @@
+awk '{ print tolower($0) }' $1 > $1lower
